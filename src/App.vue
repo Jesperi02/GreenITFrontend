@@ -1,20 +1,19 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-</template>
-
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import BadFileUpload from './components/BadFileUpload.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    BadFileUpload
   }
 });
 </script>
 
+<template>
+    <h1>Here is a child component!</h1>
+    <BadFileUpload/>
+</template>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -24,4 +23,8 @@ export default defineComponent({
   color: #2c3e50;
   margin-top: 60px;
 }
+</style>
+
+<style lang="scss">
+    @import 'src/styles/App';
 </style>

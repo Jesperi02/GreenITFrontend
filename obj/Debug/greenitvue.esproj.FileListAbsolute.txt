@@ -1,0 +1,2 @@
+C:\Users\user\OneDrive - LUT University\Green IT\Projetki\GreenITVue\obj\Debug\greenitvue.esproj.SuggestedBindingRedirects.cache
+C:\Users\user\OneDrive - LUT University\Green IT\Projetki\GreenITVue\obj\Debug\greenitvue.esproj.CoreCompileInputs.cache
