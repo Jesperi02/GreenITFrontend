@@ -1,10 +1,7 @@
 <template>
-    <div class="content">
-        <div class="box">
+    <h1>Uploaded files:</h1>
+    <div class="box down">
 
-        </div>
-
-        <button @click="count++">You clicked me {{ count }} times.</button>
     </div>
 </template>
 
